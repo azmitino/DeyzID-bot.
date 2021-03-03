@@ -1,53 +1,29 @@
 {
-  "name": "DeysID",
-  "version": "4.0.0",
-  "description": "Discord bot",
-  "main": "index.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "axios": "^0.21.0",
-    "cpu-stat": "^2.0.1",
-    "dateformat": "^3.0.3",
-    "discord-logs": "^1.7.7",
-    "discord-player": "^3.0.3",
-    "discord.js": "^12.5.1",
-    "discord.js-minesweeper": "^1.0.6",
-    "file-type": "^16.0.1",
-    "g-i-s": "^2.1.6",
-    "lodash": "^4.17.20",
-    "mangadex-full-api": "^3.10.0",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2",
-    "ms": "^2.1.2",
-    "nekos.life": "^2.0.7",
-    "node-fetch": "^2.6.1",
-    "node-superfetch": "^0.1.10",
-    "opusscript": "0.0.7",
-    "os": "^0.1.1",
-    "quick.db": "^7.1.3",
-    "saucenao": "0.0.2",
-    "scathach-api": "0.0.7",
-    "string-template": "^1.0.0",
-    "yargs-parser": "^20.2.4"
+    "express": "^4.17.1",
+    "alexa-bot-api": "^0.1.3",
+    "discord.js": "^12.3.1"
   },
-  "license": "CC-BY-SA-4.0",
-  "devDependencies": {},
+  "engines": {
+    "node": "12.x"
+  },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/azmitino/DeyzID-bot.git"
+    "url": "https://glitch.com/edit/#!/hello-express"
   },
+  "license": "MIT",
   "keywords": [
-    "bot",
-    "moderation",
-    "music",
-    "fun"
-  ],
-  "author": "fani#3826",
-  "bugs": {
-    "url": "https://github.com/azmitino/DeyzID-bot"
-  },
-  "homepage": "https://github.com/azmitino/DeyzID-bot"
+    "node",
+    "glitch",
+    "express"
+  ]
 }
