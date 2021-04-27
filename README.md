@@ -1,2 +1,2 @@
 # chatBOT-v2
-Simple chat bot alexa
+Simple chat bot alexa api , node.js
